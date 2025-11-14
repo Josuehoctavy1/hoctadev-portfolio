@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import portfolio_website from "../assets/portfolio_website.png";
 import {
   FaAngular,
   FaBootstrap,
