@@ -50,7 +50,9 @@ const Contact = () => {
                         <h4 className="font-semibold mb-4 text-white">Suivez-moi</h4>
                         <div className="flex gap-4">
                             <div className="p-3 bg-white/10 backdrop-blur-2xl rounded-full hover:bg-orange-500 text-white border border-white/20">
-                                <ImInstagram/>
+                                <a href="https://www.instagram.com/hoctavy_official" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-2xl rounded-full hover:bg-orange-500 text-white border border-white/20 transition-colors" aria-label="Instagram">
+                                  <ImInstagram />
+                                </a>
                             </div>
                              <div className="p-3 bg-white/10 backdrop-blur-2xl rounded-full hover:bg-orange-500 text-white border border-white/20">
                                 <LiaLinkedin/>
